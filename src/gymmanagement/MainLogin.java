@@ -82,7 +82,7 @@ public class MainLogin extends javax.swing.JFrame {
         jLabel4.setRequestFocusEnabled(false);
 
         jLabel2.setFont(new java.awt.Font("FreeSans", 1, 26)); // NOI18N
-        jLabel2.setText("Welcome To CROSSFIT");
+        jLabel2.setText("Welcome To PULSE! ");
 
         jLabel1.setFont(new java.awt.Font("Ubuntu", 1, 18)); // NOI18N
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
