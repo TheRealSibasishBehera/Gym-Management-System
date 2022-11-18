@@ -38,13 +38,12 @@ trainer, with a specified exercise plan for one month.
 #### UML diagrams:  
   1. Use Case diagram.
   2. Class diagram.
-  3. CRC diagram(s), illustrating the design of program.
 
 #### Source Code.
 #### Presentation of Project.
 
 
 ##### Group Members
-   * Alka Trivedi
-   * Taniya Adil
-   * Sampada Kathar
+   * Priyadarshini Roy
+   * Mehak Gupta
+   * Sibasish Behera
