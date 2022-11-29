@@ -158,7 +158,7 @@ public class Trainer extends javax.swing.JFrame {
             }
         });
 
-        box2.setText("jTextField1");
+        box2.setText("Exercise Plan");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);

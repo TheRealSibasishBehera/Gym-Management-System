@@ -40,38 +40,38 @@ public class AdminFront extends javax.swing.JFrame {
         jLabel2 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
         jMenuBar1 = new javax.swing.JMenuBar();
-        jMenu1 = new javax.swing.JMenu();
-        jMenuItem1 = new javax.swing.JMenuItem();
-        jMenu2 = new javax.swing.JMenu();
+        HomeMenu = new javax.swing.JMenu();
+        LogoutItem = new javax.swing.JMenuItem();
+        EquipmentsMenu = new javax.swing.JMenu();
         jMenuItem4 = new javax.swing.JMenuItem();
         jMenuItem2 = new javax.swing.JMenuItem();
         jMenuItem3 = new javax.swing.JMenuItem();
-        jMenu3 = new javax.swing.JMenu();
+        TrainerMenu = new javax.swing.JMenu();
         jMenuItem5 = new javax.swing.JMenuItem();
         jMenuItem6 = new javax.swing.JMenuItem();
         jMenuItem8 = new javax.swing.JMenuItem();
-        jMenu4 = new javax.swing.JMenu();
+        CustomerMenu = new javax.swing.JMenu();
         jMenuItem7 = new javax.swing.JMenuItem();
         jMenuItem9 = new javax.swing.JMenuItem();
         jMenuItem10 = new javax.swing.JMenuItem();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
 
-        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/gymmanagement/gym.jpg"))); // NOI18N
+        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/gymmanagement/trainer.png"))); // NOI18N
 
-        jMenu1.setText("Home");
+        HomeMenu.setText("Home");
 
-        jMenuItem1.setText("LogOut");
-        jMenuItem1.addActionListener(new java.awt.event.ActionListener() {
+        LogoutItem.setText("LogOut");
+        LogoutItem.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem1ActionPerformed(evt);
+                LogoutItemActionPerformed(evt);
             }
         });
-        jMenu1.add(jMenuItem1);
+        HomeMenu.add(LogoutItem);
 
-        jMenuBar1.add(jMenu1);
+        jMenuBar1.add(HomeMenu);
 
-        jMenu2.setText("Equipments");
+        EquipmentsMenu.setText("Equipments");
 
         jMenuItem4.setText("ViewEquipments");
         jMenuItem4.addActionListener(new java.awt.event.ActionListener() {
@@ -79,7 +79,7 @@ public class AdminFront extends javax.swing.JFrame {
                 jMenuItem4ActionPerformed(evt);
             }
         });
-        jMenu2.add(jMenuItem4);
+        EquipmentsMenu.add(jMenuItem4);
 
         jMenuItem2.setText("Add");
         jMenuItem2.addActionListener(new java.awt.event.ActionListener() {
@@ -87,7 +87,7 @@ public class AdminFront extends javax.swing.JFrame {
                 jMenuItem2ActionPerformed(evt);
             }
         });
-        jMenu2.add(jMenuItem2);
+        EquipmentsMenu.add(jMenuItem2);
 
         jMenuItem3.setText("Delete");
         jMenuItem3.addActionListener(new java.awt.event.ActionListener() {
@@ -95,11 +95,11 @@ public class AdminFront extends javax.swing.JFrame {
                 jMenuItem3ActionPerformed(evt);
             }
         });
-        jMenu2.add(jMenuItem3);
+        EquipmentsMenu.add(jMenuItem3);
 
-        jMenuBar1.add(jMenu2);
+        jMenuBar1.add(EquipmentsMenu);
 
-        jMenu3.setText("Trainer");
+        TrainerMenu.setText("Trainer");
 
         jMenuItem5.setText("ViewTrainer");
         jMenuItem5.addActionListener(new java.awt.event.ActionListener() {
@@ -107,7 +107,7 @@ public class AdminFront extends javax.swing.JFrame {
                 jMenuItem5ActionPerformed(evt);
             }
         });
-        jMenu3.add(jMenuItem5);
+        TrainerMenu.add(jMenuItem5);
 
         jMenuItem6.setText("Add");
         jMenuItem6.addActionListener(new java.awt.event.ActionListener() {
@@ -115,7 +115,7 @@ public class AdminFront extends javax.swing.JFrame {
                 jMenuItem6ActionPerformed(evt);
             }
         });
-        jMenu3.add(jMenuItem6);
+        TrainerMenu.add(jMenuItem6);
 
         jMenuItem8.setText("Delete");
         jMenuItem8.addActionListener(new java.awt.event.ActionListener() {
@@ -123,11 +123,11 @@ public class AdminFront extends javax.swing.JFrame {
                 jMenuItem8ActionPerformed(evt);
             }
         });
-        jMenu3.add(jMenuItem8);
+        TrainerMenu.add(jMenuItem8);
 
-        jMenuBar1.add(jMenu3);
+        jMenuBar1.add(TrainerMenu);
 
-        jMenu4.setText("Customer");
+        CustomerMenu.setText("Customer");
 
         jMenuItem7.setText("View Customer");
         jMenuItem7.addActionListener(new java.awt.event.ActionListener() {
@@ -135,7 +135,7 @@ public class AdminFront extends javax.swing.JFrame {
                 jMenuItem7ActionPerformed(evt);
             }
         });
-        jMenu4.add(jMenuItem7);
+        CustomerMenu.add(jMenuItem7);
 
         jMenuItem9.setText("Add");
         jMenuItem9.addActionListener(new java.awt.event.ActionListener() {
@@ -143,7 +143,7 @@ public class AdminFront extends javax.swing.JFrame {
                 jMenuItem9ActionPerformed(evt);
             }
         });
-        jMenu4.add(jMenuItem9);
+        CustomerMenu.add(jMenuItem9);
 
         jMenuItem10.setText("Delete");
         jMenuItem10.addActionListener(new java.awt.event.ActionListener() {
@@ -151,9 +151,9 @@ public class AdminFront extends javax.swing.JFrame {
                 jMenuItem10ActionPerformed(evt);
             }
         });
-        jMenu4.add(jMenuItem10);
+        CustomerMenu.add(jMenuItem10);
 
-        jMenuBar1.add(jMenu4);
+        jMenuBar1.add(CustomerMenu);
 
         setJMenuBar(jMenuBar1);
 
@@ -189,10 +189,10 @@ public class AdminFront extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jMenuItem1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem1ActionPerformed
+    private void LogoutItemActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_LogoutItemActionPerformed
         // TODO add your handling code here:
         this.dispose();
-    }//GEN-LAST:event_jMenuItem1ActionPerformed
+    }//GEN-LAST:event_LogoutItemActionPerformed
 
     private void jMenuItem4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem4ActionPerformed
         // TODO add your handling code here:
@@ -271,7 +271,7 @@ public class AdminFront extends javax.swing.JFrame {
         // TODO add your handling code here:
         String n = JOptionPane.showInputDialog("Please enter the Username of the Customer");
         if (CustomerL.containsKey(n)) {
-            
+
             U = CustomerO.get(n);
             int choice=U.getCh();
             U.getAssT().Cust.remove(n);
@@ -307,7 +307,7 @@ public class AdminFront extends javax.swing.JFrame {
         /* Set the Nimbus look and feel */
         //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
         /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
-         * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html 
+         * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html
          */
         try {
             for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
@@ -339,12 +339,12 @@ public class AdminFront extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
-    private javax.swing.JMenu jMenu1;
-    private javax.swing.JMenu jMenu2;
-    private javax.swing.JMenu jMenu3;
-    private javax.swing.JMenu jMenu4;
+    private javax.swing.JMenu HomeMenu;
+    private javax.swing.JMenu EquipmentsMenu;
+    private javax.swing.JMenu TrainerMenu;
+    private javax.swing.JMenu CustomerMenu;
     private javax.swing.JMenuBar jMenuBar1;
-    private javax.swing.JMenuItem jMenuItem1;
+    private javax.swing.JMenuItem LogoutItem;
     private javax.swing.JMenuItem jMenuItem10;
     private javax.swing.JMenuItem jMenuItem2;
     private javax.swing.JMenuItem jMenuItem3;

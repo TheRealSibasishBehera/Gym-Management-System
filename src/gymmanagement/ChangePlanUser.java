@@ -51,7 +51,7 @@ public class ChangePlanUser extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
 
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel1.setText("CROSSFIT");
+        jLabel1.setText("PULSE FITNESS");
 
         jLabel2.setText("Change Membership To");
 

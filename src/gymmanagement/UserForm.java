@@ -189,7 +189,7 @@ public class UserForm extends javax.swing.JFrame {
         jLabel11.setText("Weight");
 
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel1.setText("CROSSFIT");
+        jLabel1.setText("PULSE FITNESS");
 
         jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel2.setText("First Name");

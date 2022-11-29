@@ -49,7 +49,7 @@ public class MainLogin extends javax.swing.JFrame {
     private void initComponents() {
 
         jCheckBox1 = new javax.swing.JCheckBox();
-        jButton1 = new javax.swing.JButton();
+        loginButton = new javax.swing.JButton();
         jLabel4 = new javax.swing.JLabel();
         user = new javax.swing.JTextField();
         jLabel2 = new javax.swing.JLabel();
@@ -70,10 +70,10 @@ public class MainLogin extends javax.swing.JFrame {
             }
         });
 
-        jButton1.setText("Login");
-        jButton1.addActionListener(new java.awt.event.ActionListener() {
+        loginButton.setText("Login");
+        loginButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton1ActionPerformed(evt);
+                loginButtonActionPerformed(evt);
             }
         });
 
@@ -149,7 +149,7 @@ public class MainLogin extends javax.swing.JFrame {
                             .addComponent(CustomerLogin, javax.swing.GroupLayout.PREFERRED_SIZE, 99, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addGap(19, 19, 19))
                         .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                            .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 127, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(loginButton, javax.swing.GroupLayout.PREFERRED_SIZE, 127, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addGap(114, 114, 114))
                         .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                             .addComponent(jButton3, javax.swing.GroupLayout.PREFERRED_SIZE, 227, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -179,7 +179,7 @@ public class MainLogin extends javax.swing.JFrame {
                             .addComponent(TrainerLogin)
                             .addComponent(CustomerLogin))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(loginButton, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addComponent(jButton3))
                     .addGroup(layout.createSequentialGroup()
@@ -195,7 +195,7 @@ public class MainLogin extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton3ActionPerformed
 
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+    private void loginButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_loginButtonActionPerformed
         // TODO add your handling code here:
         if (user.getText().isEmpty() || pass.getText().isEmpty()) {
             JOptionPane.showMessageDialog(null, "Please enter all fields");
@@ -242,7 +242,7 @@ public class MainLogin extends javax.swing.JFrame {
                 JOptionPane.showMessageDialog(null, e.getMessage());
             }
         }
-    }//GEN-LAST:event_jButton1ActionPerformed
+    }//GEN-LAST:event_loginButtonActionPerformed
 
     private void passActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_passActionPerformed
         // TODO add your handling code here:
@@ -313,7 +313,7 @@ public class MainLogin extends javax.swing.JFrame {
     private javax.swing.JRadioButton AdminLogin;
     private javax.swing.JRadioButton CustomerLogin;
     private javax.swing.JRadioButton TrainerLogin;
-    private javax.swing.JButton jButton1;
+    private javax.swing.JButton loginButton;
     private javax.swing.JButton jButton3;
     private javax.swing.JCheckBox jCheckBox1;
     private javax.swing.JLabel jLabel1;

@@ -14,7 +14,7 @@ public class GymManagement {
     /**
      * @param args the command line arguments
      */
-   public static TrainerDetails T = null;
+    public static TrainerDetails T = null;
     public static UserDetails U = null;
 
     public static void main(String[] args) {
